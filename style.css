@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --cor-primario: #27005D;
+    --cor-secundario: #9400FF;
+    --cor-html: #FFDD95;
+    --cor-html-bg: #86A7FC;   
+    --cor-css: #52D3D8;
+    --cor-css-bg: #200E3A;
+    --cor-js: #B80000;
+    --cor-js-bg: #FF9800;
+}
+
+[data-contexto="padrao"] {
+    background-color: var(--cor-primario);
+}
+
+[data-contexto="padrao-html"] {
+    background-color: var(--cor-html);
+}
+
+[data-contexto="padrao-css"] {
+    background-color: var(--cor-css);
+}
+
+[data-contexto="padrao-js"] {
+    background-color: var(--cor-js);
+}
+
+header {
+    position: absolute;
+    left: 46em;
+    display: flex;
+    justify-content: space-between;
+    gap: 38em;
+}
+
+
+.menu-menu-1, .menu-menu-2, .menu-menu-3{
+    position: relative;
+    bottom: 0em;
+    padding: 1em;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.menu-menu-1{
+    border-radius: 10% 10px 0 0;
+}
+
+.menu-menu-3{
+    border-radius: 0 0 10% 10px;
+}
+
+.ham{
+    position: relative;
+    bottom: 0.5em;
+    left: 1.25em;
+    cursor: pointer;
+}
+
+.menu-text{
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
+}
+
+section {
+    padding: 3.5em 15em;
+    background-color: var(--cor-primario);
+    text-align: center;
+}
+
+.lottie-1 {
+    display: none;
+    justify-content: center;
+}
+
+.lottie-2 {
+    display: none;
+    justify-content: center;
+}
+
+.lottie-3 {
+    display: none;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    padding: 0 10em;
+}
+
+.total {
+    padding: 1em;
+    background-color: var(--cor-secundario);
+    border: 1em double white;
+    border-radius: 10em;
+}
+
+.botao-div {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.botao {
+    padding: 1em;
+    background: rgb(174,210,255);
+    background: linear-gradient(128deg, rgba(174,210,255,1) 10%, rgba(148,0,255,1) 50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    border-radius: 10em;
+    transition: 100s;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: rgb(174,210,255);
+    background: linear-gradient(128deg, rgba(174,210,255,1) 50%, rgba(148,0,255,1) 90%);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
